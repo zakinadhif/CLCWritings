@@ -50,3 +50,11 @@
 .lightText {
   color: #666;
 }
+
+.smallText {
+  font-size: 0.7em;
+}
+
+.centerText {
+  text-align: center;
+}
