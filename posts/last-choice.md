@@ -1,7 +1,7 @@
 ---
-title: 'Dear Diary of My Life'
-date: '2022-03-07'
-author: 'Muhammad Asthi Seta Yuwana'
+title: 'Last Choice'
+date: '2022-03-09'
+author: 'Natzwa Naura'
 ---
 
 Sorrow eyes being on her sight  
