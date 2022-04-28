@@ -17,7 +17,11 @@ export default function Post({ postData }) {
         <div className={`${utilStyles.lightText} ${utilStyles.centerText}`}>
           <span>{postData.author}</span> &#8226; <Date dateString={postData.date} />
         </div>
-        <div className={`${utilStyles.centerText}`} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <div style={{
+          textIndent: "2em",
+          lineHeight: "1.4",
+          textAlign: "justify"
+        }} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
   );

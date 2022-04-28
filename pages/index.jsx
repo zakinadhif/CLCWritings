@@ -13,7 +13,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Poems</h2>
+        <h2 className={utilStyles.headingLg}>Short Story</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({id, date, title, author}) => (
             <li className={utilStyles.listItem} key={id}>
